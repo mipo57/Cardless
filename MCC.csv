@@ -1,0 +1,372 @@
+Kod MCC,Sklep
+3001,American Airlines
+3077,Thai Airways
+3136,Qatar Airways
+3245,easyjet
+3246,Ryanair
+4111,Przewozy Regionalne
+4111,Biletomaty Mennicy Polskiej
+4111,KZK GOP automat
+4111,MPK Kraków
+4111,mPay (bilety komunikacji miejskiej)
+4111,Karta Miejska - Warszawa
+4111,LEO Express
+4111,MPK Wrocław URBANCARD
+4111,jakdojade
+4111,ZTM Poznań (PEKA Poznań)
+4111,SkyCash
+4111,AD Euro-Trans Biuro Podróży
+4111,POLREGIO bilety PKP (biletyregionalne.pl)
+4111,Automat biletowy PKP (Kraków)
+4112,PKP Intercity
+4112,Koleje Śląskie
+4112,Koleje Mazowieckie
+4112,České dráhy
+4112,Koleje dolnośląskie
+4121,TAXI
+4121,taxify
+4121,Uber Eats
+4121,MYTAXI
+4131,PolskiBus
+4131,MPK Łódź Automat nr 23
+4131,Interglobus
+4131,FlixBus
+4131,Radex przewozy pasażerskie
+4166,Mila
+4215,DPD kurier
+4215,Sendit.pl
+4215,Paczkomat Inpost
+4215,Furgonetka.pl
+4511,WIZZ AIR
+4582,Pyrzowice Katowice Airport-Parking
+4722,Hostelworld
+4722,Interchalet.de
+4722,Lajkonik / Mój Bus
+4722,Amoma
+4722,hotels.com
+4722,kiwi.com
+4722,Agoda.com
+4784,Autostrada A1
+4784,GDDKiA PPO/SPO
+4784,Autostrada Katowice - Kraków (Stalexport)
+4789,České dráhy (koleje)
+4789,Biletomat Asec
+4789,MZK w Bielsku-Bialej (biletomat)
+4789,Koleo
+4789,TEROPLAN (e-podróżnik.pl)
+4814,Doładowanie telefonu (Plus)
+4814,Doładowanie telefonu (Play)
+4814,Doładowanie Virgin Mobile (via PayU)
+4814,Skype
+4814,T-Mobile aplikacja
+4816,Aero2
+4829,DiPocket
+4829,Poczta Polska
+4899,NC+
+4899,Netflix
+4899,UPC bezpłatna płatność faktury telefonicznie
+4899,UPC płatność faktur (0 zł) na infolinii zgłosić chęć płatności kartą - MCC dobry dla T-mobile
+4900,Sprytny Bill
+4900,Blue Media
+4900,Przelewy24
+4900,Żabka rachunki
+4900,e-bok PGE Obrót Rzeszów (PayU)
+4900,przelewy24
+4900,INEA S.A.
+5111,ALTTO - OFFICE MEDIA
+5139,tomcio.pl
+5192,Humble Bundle
+5200,Leroy Merlin
+5211,BRICOMARCHE
+5251,Jula
+5300,Makro Cash And Carry
+5300,Selgros Cash and Carry
+5311,Banggood
+5311,emag.pl
+5311,TCHIBO stacjonarny
+5311,Aliexpress
+5331,"EKO ""drogeria i market"""
+5331,Merlin.pl
+5411,Biedronka
+5411,Lidl
+5411,Auchan
+5411,Carrefour
+5411,Globi
+5411,E.Leclerc
+5411,Polomarket
+5411,Piotr i Paweł
+5411,Mokpol
+5411,Tesco
+5411,Kaufland
+5411,SDH Klimczok Bielsko-Biała
+5411,Bi1 (Rella)
+5411,Žabka (czeska)
+5411,PSS Społem Bielsko-Biała
+5411,Sano
+5411,ALDI
+5411,Netto
+5411,Epi market WROCŁAW
+5411,delikatesy centrum
+5411,biedronka
+5411,"tesco,kaufland,lidl"
+5422,Cukiernia Sowa
+5422,Multicoolty bar Bielsko-Biała
+5422,Good Lood
+5462,Manufaktura Precli
+5462,La Baguette (restauracja pod zamkiem w Chęcinach)
+5468,DNK
+5499,Delikatesy Lewiatan
+5499,Żabka
+5499,Top Market
+5499,Lewiatan ROLL sklepy
+5499,Awiteks pieczywo
+5499,Stokrotka spożywczy
+5499,Zychowicz Sp. z o.o.
+5499,SKLEP SPOZYWCZY GAMA
+5499,FRESHMARKET
+5499,GROSZEK - sklep spożywczy
+5499,CARREFOUR EXPRESS
+5499,Sklepy Doroty Plus
+5511,Oponeo
+5533,InterCars S.A. Rzeszów
+5541,Shell
+5541,Orlen
+5541,Stacja Paliw Auchan
+5541,BP-Stacje Paliw
+5541,Statoil
+5541,Lotos
+5541,"lotos,orlen,shell"
+5542,eMILA BM REFLEX paliwo
+5611,BYTOM
+5611,Wólczanka
+5621,me&bags
+5631,Top Secret
+5631,Top Secret
+5631,Świat Rajstop
+5641,Smyk
+5651,VAN GRAAF
+5651,LPP RESERVED
+5651,Peek&Cloppenburg
+5651,Zalando
+5661,Ecco
+5661,Deichmann
+5661,CCC
+5661,KAZAR
+5661,ccc
+5661,New Balance
+5691,KIK
+5691,H&M
+5691,Diverse
+5691,NEW YORKER
+5691,TK MAXX
+5691,LAVARD
+5691,Wrangler
+5699,HenriLloyd sklep firmowy Brodnica
+5712,Meble Black Red White
+5712,Agata Meble
+5712,JYSK SP. Z O.O.
+5712,IKEA
+5719,Castorama
+5722,Pepco
+5722,Kawa Dolce Gusto
+5722,NEONET
+5722,pepco
+5732,MediaExpert
+5732,NET-S
+5732,Morele.net
+5732,RTV EURO AGD
+5732,Media Markt
+5732,ole ole
+5734,Google Play
+5734,Google Play
+5734,Serwisant Online
+5735,Alia Vox shop
+5735,Audioteka
+5812,Wars S.A.
+5812,IKEA
+5812,Pizzeria Da Grasso
+5812,PIZZA MARGERITA Bielsko-Biała
+5812,PIGAL CAFE Bielsko-Biała
+5812,PIWNICA ZAMKOWA Bielsko-Biała
+5812,Burger King
+5812,Cudova Bistro Kudowa Zdrój
+5812,Bar Wegetarianski VEGA Wrocław
+5812,KLUB MIASTO Bielsko-Biała
+5812,Słodownia Food & Beer Bielsko-Biała
+5812,Oskar Cafe & Bistro Bielsko-Biała
+5812,Restauracja Lawenda Bielsko-Biała
+5812,Cube Cafe
+5812,Restauracja Sphinx
+5812,Zapiekanki Tradycyjne
+5812,Pub Cinema Paradiso (Wrocław)
+5812,Gourmet Bistro
+5812,Baalbek
+5812,Piwiarnia Warka
+5812,Sopot Park Wodny
+5812,Chłopskie Jadło
+5812,GRYCAN LODY OD POKOLEŃ
+5812,1-Minute (spożywczy)
+5812,Klub Miasto Bielsko-Biała
+5812,Rock Galeria Bielsko-Biała
+5812,ZAKOPANE ZAJAZD FURMANSKI (restauracja)
+5812,PIZZERIA MANHATTAN
+5812,NORTH FISH
+5812,Miło Mi Lodziarnia Gdynia
+5812,Orzo Warszawa
+5812,Laguna Bistro
+5812,Schronisko Kopa Biskupia (POL)
+5812,Przystań U Grubego (Paczków)
+5812,Warszawa pol bao long
+5812,Kuchnia Marché
+5812,BIO WAY GDYNIA restauracja
+5812,Fitboxy
+5812,Bar Kociołek Szczecin
+5812,Costa coffee
+5812,Uber Eats
+5813,KARAVAN BAR Wrocław
+5813,Bar Żarcik Wąchock
+5813,Bar Żarcik Wąchock
+5813,P.H.U. OSCAR (punkt gastronomiczny)
+5813,Klub Studencki Szafa
+5814,McDonald's
+5814,Pizzeria MICHOLA Bielsko-Biała
+5814,KFC
+5814,pyszne.pl
+5814,PICCOLO Poznań
+5814,Delikomat
+5814,Kebab Yildiz (Gwiazda) Bielsko-Biała
+5814,Nazar Kebab Bielsko-Biała
+5814,Mania Smaku Pizzerie
+5814,Pizzaportal.pl
+5814,Green Caffe Nero
+5816,Playstation Network
+5912,Cosmedica Sp. z o.o.
+5912,"Apteka ""Dbam o Zdrowie"" (DOZ)"
+5912,Ziko Apteka
+5912,Super-Pharm
+5912,Apteka Gemini
+5912,LUPUS PHARMA
+5912,Apteka Pod Zamkiem Bielsko-Biała
+5912,Apteka Dr Zdrowie
+5912,Dom Leków
+5912,APTEKA FANTAZJA
+5912,APTEKA HYGIEIA
+5912,APTEKA URODA
+5912,EURO-APTEKA
+5912,Apteka Zdrowit
+5912,Apteka Słoneczna
+5921,Sklep Monopolowy Artur Bielsko-Biała
+5921,CMT Alkohole Prestiż
+5921,ALKOHOLE 24H (W-wa)
+5941,Decathlon
+5941,Skalnik.pl
+5941,e-horyzont
+5941,adidas.pl
+5942,Empik
+5942,Świat Książki
+5942,Ksiegarnia MATRAS
+5942,Agora - prenumerata Wyborcza
+5942,Sklep internetowy Muzeum Pałacu w Wilanowie
+5942,"Ogrody Boboli (Włochy, Florencja)"
+5942,Bilet na wieżę San Gimignano (Wlochy)
+5942,Księgarnia Internetowa znak.com.pl (eCom Group sp. z o.o.)
+5944,APART
+5945,CdKeys
+5945,Empik (doładowanie Dotpay)
+5947,MOONSTONE
+5964,Aliexpress
+5968,Google Storage
+5969,Amazon.co.uk
+5977,Douglas
+5977,Rossmann
+5977,Ziaja
+5977,Drogeria Hebe
+5977,the secret soap store
+5977,Avon płatność faktury przez eBOK
+5977,Kosmetyki Tołpa
+5977,pachnidelko.pl
+5977,PROCOSMED Sp. z o.o. (sklepy firmowe kosmetyków ZIAJA)
+5977,Dbam o Zdrowie - apteka internetowa (pocztowy nie zalicza w kategorii zdrowie)
+5977,Drogeria Pigment
+5983,PGNiG faktury za gaz przez eBOK
+5992,Dami-Kwiat (kwiaciarnia)
+5994,Inmedio
+5994,KOLPORTER Salonik Prasowy
+5994,Ruch
+5994,Relay
+5994,SALONIK PRASOWY
+5995,Zooplus
+5999,Allegro
+5999,Świat Prasy
+5999,DX.com
+5999,Empik
+6011,wypłata z bankomatu
+6012,Revolut
+6051,WorldRemit
+6300,Liberty Direct (OC)
+6300,Hestia
+6300,AXA (AVANSSUR S.A.)
+6300,hestia
+6538,Fenige
+7011,Chata Wuja Toma Szczyrk
+7011,"HOTELE, HOSTELE, PENSJONATY"
+7011,Schronisko PTTK na Magurce Wilkowickiej
+7011,Booking
+7011,hotel Energetyk Ustka
+7011,ZAKOZAKOPANE WILLA MONTEROSA (restauracja)
+7011,Airbnb
+7011,"Willa Pod Miedzą, Bukowina Tatrzańska"
+7011,Zamek Moszna (zwiedzanie)
+7032,Park Wodny Tarnowskie Góry
+7211,5aSec
+7278,Groupon
+7278,eMultisport
+7375,BIK
+7399,BlaBlaCar
+7512,Traficar
+7512,RENTALCARS.COM
+7512,PANEK CAR SHARING
+7523,Parkomat ZTM Warszawa
+7538,Euroautocontrol (stacja kontroli pojazdów)
+7832,Cinema City
+7832,Kino Helios
+7832,Multikino
+7832,Dolnośląskie Centrum Filmowe
+7841,vod.pl
+7922,Bilety biletyna.pl
+7922,Centrum Targowo-Kongresowe MT Polska
+7922,Metrum Jazz Club Bielsko-Biała (bilety przez www)
+7922,DIPOCKET LIMITED
+7922,Ebilet
+7932,Arena Klub Bilardowy
+7941,BIALKA TATRZAŃSKA TERMA BANIA
+7991,Zamek Moszna (kawiarnia)
+7991,Zamek Królewski w Chęcinach k.Kielc
+7994,Humble Bundle
+7994,Steamgames.com GB
+7995,LottoLand (GBR London LottoLand)
+7995,Fortuna - bukmacher
+7997,Fitness Platinum
+7998,Gdynia Akwarium
+7999,Nextbike
+7999,Kolej Linowa Szyndzielnia
+7999,Skiwelt - Soell (AT)
+7999,TERMY UNIEJÓW
+7999,OSiR Świnoujście
+7999,Termy Chochołowskie
+7999,Biletomat do ZOO Wrocław
+8011,"Lecznica Profesorsko - Ordynatorska ""Alfa-Lek"""
+8021,"Klinika Optima, Warszawa"
+8043,Vision Express (sklep internetowy)
+8099,"CMS (Centrum Medycyny Sportowej), Warszawa"
+8099,Centrum Medyczne DAMIANA
+8099,Centrum Medyczne MEDRUN
+8099,NZOZ Medikon Grodzisk Maz.
+8099,Las-Med Rehabilitacja
+8099,CSR WUM (basen)
+8398,WOŚP
+8398,Adoptuj Pszczołę ;)
+8999,Mister Minit
+8999,Kopalnia Wieliczka
+9211,SĄD REJONOWY KOSZALIN
+9406,totalizator sportowy

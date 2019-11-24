@@ -1,0 +1,117 @@
+[
+  {
+    "name": "Agricultural Services",
+    "from": "0001",
+    "to": "1499"
+  },
+  {
+    "name": "Contracted Services",
+    "from": "1500",
+    "to": "2999"
+  },
+  {
+    "name": "Transportation Services",
+    "from": "4000",
+    "to": "4799"
+  },
+  {
+    "name": "Utility Services",
+    "from": "4800",
+    "to": "4899"
+  },
+  {
+    "name": "Bills",
+    "from": "4889",
+    "to": "4891"
+  },
+  {
+    "name": "Utility Services",
+    "from": "4890",
+    "to": "4999"
+  },
+  {
+    "name": "Retail Outlet Services",
+    "from": "5000",
+    "to": "5411"
+  },
+  {
+    "name": "Food",
+    "from": "5410",
+    "to": "5500"
+  },
+  {
+    "name": "Retail Outlet Services",
+    "from": "5500",
+    "to": "5541"
+  },
+  {
+    "name": "Fuel",
+    "from": "5540",
+    "to": "5543"
+  },
+  {
+    "name": "Retail Outlet Services",
+    "from": "5542",
+    "to": "5599"
+  },
+  {
+    "name": "Clothing Services",
+    "from": "5600",
+    "to": "5699"
+  },
+  {
+    "name": "Miscellaneous Stores",
+    "from": "5700",
+    "to": "5812"
+  },
+  {
+    "name": "Restaurants",
+    "from": "5811",
+    "to": "5815"
+  },
+  {
+    "name": "Miscellaneous Stores",
+    "from": "5814",
+    "to": "7299"
+  },
+  {
+    "name": "Business Services",
+    "from": "7300",
+    "to": "7829"
+  },
+  {
+    "name": "Entertainment",
+    "from": "7828",
+    "to": "8000"
+  },
+  {
+    "name": "Health",
+    "from": "8000",
+    "to": "8100"
+  },
+  {
+    "name": "Professsional Services and Membership Organisations",
+    "from": "8100",
+    "to": "8999"
+  },
+  {
+    "name": "Government Services",
+    "from": "9000",
+    "to": "9999"
+  },
+  {
+    "name": "Airlines",
+    "from": "3000",
+    "to": "3299"
+  },
+  {
+    "name": "Car Rental",
+    "from": "3300",
+    "to": "3499"
+  },
+  {
+    "name": "Lodging",
+    "from": "3500",
+    "to": "3999"
+  }
+]

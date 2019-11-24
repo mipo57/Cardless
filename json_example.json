@@ -1,0 +1,79 @@
+{
+  "responseHeader": {
+    "requestId": "3fa85f64-5717-4562-b3fc-2c963f66afa6",
+    "sendDate": "2019-11-22T20:03:13.361Z",
+    "isCallback": true
+  },
+  "transactions": [
+    {
+      "itemId": "string",
+      "amount": "string",
+      "currency": "string",
+      "description": "string",
+      "transactionType": "string",
+      "tradeDate": "2019-11-22T20:03:13.362Z",
+      "mcc": "string",
+      "auxData": {
+        "additionalProp1": "string",
+        "additionalProp2": "string",
+        "additionalProp3": "string"
+      },
+      "transactionCategory": "CREDIT",
+      "transactionStatus": {
+        "code": "string",
+        "description": "string"
+      },
+      "initiator": {
+        "value": [
+          "string"
+        ]
+      },
+      "sender": {
+        "accountNumber": "string",
+        "accountMassPayment": "string",
+        "bank": {
+          "bicOrSwift": "string",
+          "name": "string",
+          "code": "string",
+          "countryCode": "string",
+          "address": {
+            "value": [
+              "string"im
+            ]
+          }
+        },
+        "nameAddress": {
+          "value": [
+            "string"
+          ]
+        }
+      },
+      "recipient": {
+        "accountNumber": "string",
+        "accountMassPayment": "string",
+        "bank": {
+          "bicOrSwift": "string",
+          "name": "string",
+          "code": "string",
+          "countryCode": "string",
+          "address": {
+            "value": [
+              "string"
+            ]
+          }
+        },
+        "nameAddress": {
+          "value": [
+            "string"
+          ]
+        }
+      },
+      "bookingDate": "2019-11-22T20:03:13.362Z",
+      "postTransactionBalance": "string"
+    }
+  ],
+  "pageInfo": {
+    "previousPage": "string",
+    "nextPage": "string"
+  }
+}

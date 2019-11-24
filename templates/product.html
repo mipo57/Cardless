@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<!--[if lte IE 8]> <html class="oldie" lang="en"> <![endif]-->
+<!--[if IE 9]> <html class="ie9" lang="en"> <![endif]-->
+<!--[if gt IE 9]><!-->
+<html lang="pl">
+<!--<![endif]-->
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport"
+		content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+	<meta name="format-detection" content="telephone=no">
+	<link href='http://fonts.googleapis.com/css?family=Varela+Round' rel='stylesheet' type='text/css'>
+	<title>Cardless</title>
+	<link rel="stylesheet" href="/static/css/fancySelect.css" />
+	<link rel="stylesheet" href="/static/css/uniform.css" />
+	<link rel="stylesheet" href="/static/css/jquery.bxslider.css" />
+	<link href="/static/css/jquery-ui-1.10.4.custom.css" rel="stylesheet">
+	<link rel="stylesheet" href="/static/css/all.css" />
+	<link media="screen" rel="stylesheet" type="text/css" href="/static/css/screen.css" />
+	<!--[if lt IE 9]>
+		<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+	<![endif]-->
+</head>
+
+<body>
+	<div id="wrapper">
+		<div class="wrapper-holder">
+			<div class="header-holder">
+				<header id="header">
+					<span class="logo"><a href="index">Cardless</a></span>
+					<a href="/account"><img src="/static/images/icon.png"></i></a>
+					<div class="clear"></div>
+					<a class="menu_trigger" href="#">menu</a>
+				</header>
+			</div>
+
+			<section class="main">
+				<div class="content">
+					<section class="bar">
+						<div class="bar-frame">
+							<ul class="breadcrumbs">
+								<li><a href="/index">Home</a></li>
+								<li>Product page</li>
+							</ul>
+						</div>
+					</section>
+					<div class="details-info">
+						<div class="slid_box">
+							<ul class="bxslider">
+								<li><img id="coupon_img"
+										src="https://sanitationsolutions.net/wp-content/uploads/2015/05/empty-image.png" />
+								</li>
+							</ul>
+						</div>
+						<div class="description">
+							<div class="section">
+								<label for="page">Progress Bar:</label>
+								<div id="myProgress">
+									<div style='width:10%;' id="myBar">10%</div>
+								</div>
+							</div>
+							<div id="tabs">
+								<ul>
+									<li><a href="#tabs-1">Warunki uzyskania</a></li>
+									<li><a href="#tabs-2">Jak użyć</a></li>
+									<li><a href="#tabs-3">Ważność</a></li>
+								</ul>
+								<div id="tabs-1">Tu musi pobierać z flaska</div>
+								<div id="tabs-2">Ha! nic nie musisz zrobić, nasza apka zrobi to za Ciebie!</div>
+								<div id="tabs-3">Tu musi być ważność z flaska</div>
+							</div>
+						</div>
+						<div class="clear"></div>
+					</div>
+				</div>
+			</section>
+		</div>
+	</div>
+
+	<script src="http://code.jquery.com/jquery-1.11.1.min.js"></script>
+	<script type="text/javascript" src="/static/js/jcarousellite.js"></script>
+	<script type="text/javascript" src="/static/js/jquery.placeholder.js"></script>
+	<script type="text/javascript" src="/static/js/jquery.uniform.min.js"></script>
+	<script type="text/javascript" src="/static/js/fancySelect.js"></script>
+	<script type="text/javascript" src="/static/js/jquery.bxslider.js"></script>
+	<script src="/static/js/jquery-ui-1.10.4.custom.js"></script>
+	<script type="text/javascript" src="/static/js/main.js"></script>
+
+	<script>
+		$.get("http://23.97.142.158/cupon_detail",
+			{ "cupon_id": "{{product}}" },
+			function (coupon) {
+				coupon = JSON.parse(coupon);
+				$("#coupon_img").attr("src", coupon['url']);
+				$("#tabs-1").text(coupon['conditions']);
+				$("#tabs-3").text("Ważne do " + coupon['validate']);
+			}
+		)
+	</script>
+</body>
+
+</html>
