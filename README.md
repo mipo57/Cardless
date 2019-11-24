@@ -1,4 +1,6 @@
-# Cardless - a solution for *YOUR FAT WALLET*
+![alt text](https://github.com/mipo57/Cardless/blob/master/static/images/logo.png?raw=true)
+
+# The solution for *YOUR FAT WALLET*
 
 ## Overview
 The main idea of the Cardless was to have one card for everything. We provide an application which aggregate all loyalty cards which we use during shopping. By the PolishAPI we are able to read transactions from the account of the user and apply coupons for them if applicable. Our application is dedicated to two groups: shops and individual clients.
