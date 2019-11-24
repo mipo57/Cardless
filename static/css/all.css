@@ -23,6 +23,19 @@ footer, header, hgroup, menu, nav, section {
 	display: block;
 }
 
+.bank-icon {
+	width: 50px;
+}
+
+#header {
+	display: flex;
+	align-items: center;
+}
+
+#bank {
+	margin-left: auto;
+}
+
 img {
 	vertical-align: middle;
 }
@@ -440,8 +453,10 @@ a:hover{text-decoration:underline;}
 	behavior: url(css/PIE.htc);
 	position: relative;
 }
-#myBar {
+#progressbar {
 	height: 30px;
+	margin-top: 20px;
+    margin-bottom: 20px;
 	background-color: rgb(228, 76, 125);
 	text-align: center; /* To center it horizontally (if you want) */
 	line-height: 30px; /* To center it vertically */

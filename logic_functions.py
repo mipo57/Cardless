@@ -43,6 +43,8 @@ def cupon_detail(cupon_id):
     :return: json of shop_name, date, condition
     """
     cup = Cupons()
+    cup.cupons[cupon_id]['procent']=get_coupon_procent('user1', cupon_id)
+
     return json.dumps(cup.cupons[cupon_id])
 
 def show_blacklist(user_id):
@@ -101,6 +103,8 @@ def get_coupon_procent(user_id,coupon_id):
         result = int(result)
         if result>100:
             result=100
+        elif result == 0:
+            result=1
     else:
         result = 0
 

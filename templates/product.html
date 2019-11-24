@@ -30,7 +30,7 @@
 			<div class="header-holder">
 				<header id="header">
 					<span class="logo"><a href="index">Cardless</a></span>
-					<a href="/account"><img src="/static/images/icon.png"></i></a>
+					<a id="bank" href="account"><img class="bank-icon" src="/static/images/icon.png"></i></a>
 					<div class="clear"></div>
 					<a class="menu_trigger" href="#">menu</a>
 				</header>
@@ -41,8 +41,8 @@
 					<section class="bar">
 						<div class="bar-frame">
 							<ul class="breadcrumbs">
-								<li><a href="/index">Home</a></li>
-								<li>Product page</li>
+								<li><a href="/index">Centrum kuponów</a></li>
+								<li>Szczegóły kuponu</li>
 							</ul>
 						</div>
 					</section>
@@ -56,9 +56,9 @@
 						</div>
 						<div class="description">
 							<div class="section">
-								<label for="page">Progress Bar:</label>
+								<label for="page">Postęp w zdobyciu kuponu:</label>
 								<div id="myProgress">
-									<div style='width:10%;' id="myBar">10%</div>
+									<div id="progressbar" style='width:10%;' id="myBar">10%</div>
 								</div>
 							</div>
 							<div id="tabs">
@@ -96,6 +96,9 @@
 				$("#coupon_img").attr("src", coupon['url']);
 				$("#tabs-1").text(coupon['conditions']);
 				$("#tabs-3").text("Ważne do " + coupon['validate']);
+				$("#tabs-3").text("Ważne do " + coupon['validate']);
+				$("#progressbar").text(coupon['procent'])
+				$("#progressbar").css("width", "" + coupon['procent'] + "%");
 			}
 		)
 	</script>
