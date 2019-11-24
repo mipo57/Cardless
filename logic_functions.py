@@ -2,7 +2,7 @@ from all_data import Users, Shops, Cupons
 import json
 
 def get_global_coupons():
-    scup = Cupons()
+    cup = Cupons()
     urls =[]
     for cupon  in cup.cupons:
         urls.append({
