@@ -462,6 +462,15 @@ a:hover{text-decoration:underline;}
 	line-height: 30px; /* To center it vertically */
 	color: rgb(176, 153, 147); 
   }
+#myBar {
+	color: white;
+}
+.modal-backdrop {
+	z-index: -1;
+}
+#exampleModal {
+	z-index: 10000;
+}
 .block-advice .advice-holder {
 	float: left;
 	color: #67564e;

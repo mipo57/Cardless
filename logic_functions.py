@@ -105,8 +105,10 @@ def get_coupon_procent(user_id,coupon_id):
             result=100
         elif result == 0:
             result=1
+    elif cp.cupons[coupon_id]['requrement'] == 0:
+        result = 100
     else:
-        result = 0
+        result = 1
 
     return json.dumps(result)
 ## -------------------

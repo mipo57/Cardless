@@ -46,7 +46,7 @@ def get_all_cupons():
 
 @app.route('/get_premium_coupons')
 def get_premium_coupons():
-    PREMIUM = "Zabka"
+    PREMIUM = "Premium"
     user_id = request.args.get('user_id')
     return logic_functions.get_cupons_of_shop(user_id, PREMIUM)
 

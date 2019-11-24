@@ -32,7 +32,6 @@
 					<span class="logo"><a href="index">Cardless</a></span>
 					<a id="bank" href="account"><img class="bank-icon" src="/static/images/icon.png"></i></a>
 					<div class="clear"></div>
-					<a class="menu_trigger" href="#">menu</a>
 				</header>
 			</div>
 
@@ -94,10 +93,9 @@
 			function (coupon) {
 				coupon = JSON.parse(coupon);
 				$("#coupon_img").attr("src", coupon['url']);
-				$("#tabs-1").text(coupon['conditions']);
+				$("#tabs-1").html(coupon['conditions'].replace("\n", "<br/>"));
 				$("#tabs-3").text("Ważne do " + coupon['validate']);
-				$("#tabs-3").text("Ważne do " + coupon['validate']);
-				$("#progressbar").text(coupon['procent'])
+				$("#progressbar").text(coupon['procent'] + "%")
 				$("#progressbar").css("width", "" + coupon['procent'] + "%");
 			}
 		)

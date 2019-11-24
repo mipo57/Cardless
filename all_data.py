@@ -6,12 +6,16 @@ shops = {"Zabka": "https://raw.githubusercontent.com/DominikWasiolka/picturesFor
          "Empik": "https://raw.githubusercontent.com/DominikWasiolka/picturesForHackathon/master/empik/logo.png",
          "Obi": "https://raw.githubusercontent.com/DominikWasiolka/picturesForHackathon/master/obi/logo.png",
          "Vistula": "https://github.com/DominikWasiolka/picturesForHackathon/blob/master/vistula/logo.jpg",
-         "Lidl":  "https://raw.githubusercontent.com/DominikWasiolka/picturesForHackathon/master/lidl/logo.png"}
+         "Lidl":  "https://raw.githubusercontent.com/DominikWasiolka/picturesForHackathon/master/lidl/logo.png",
+         "Premium": "url"}
 
 cupons = {'id1': {"url": "https://raw.githubusercontent.com/DominikWasiolka/picturesForHackathon/master/zabka/6.jpg",
-                  "validate": "30 Listopada 2019", "conditions": "Musisz wydać 90 zł w tym miesiącu, aby uzyskać kupon \nSpecjalne warunki:\n *Niedostępne w listopadzie #NNN", 'shop': 'Zabka', 'requrement':90},
+                  "validate": "30 Listopada 2019", "conditions": "Musisz wydać 90 zł w tym miesiącu, aby uzyskać kupon \nSpecjalne warunki:\n *Niedostępne w listopadzie #NNN",
+                   'shop': 'Premium',
+                   'requrement':90},
           'id2': {"url": "https://raw.githubusercontent.com/DominikWasiolka/picturesForHackathon/master/empik/5.jpg",
-                  "validate": "24 Grudnia 2019", "conditions": "Nic nie musisz wydawac! \nMagia Świąt!",'shop':'Empik','requrement':0},
+                  "validate": "24 Grudnia 2019", "conditions": "Nic nie musisz wydawac! \nMagia Świąt!",
+                  'shop':'Empik','requrement':0},
           'id3': {"url": "https://raw.githubusercontent.com/DominikWasiolka/picturesForHackathon/master/vistula/7.jpg",
                   "validate": "12 Grudnia 2019",
                   "conditions": "Musisz wydać 10 zł w tym miesiącu, aby uzyskać kupon \nSpecjalne warunki: \n*Proszę przyjść z Tatą! Spędź z nim trochę czasu!", 'shop': 'Vistula', 'requrement':10},
@@ -47,10 +51,10 @@ cupons = {'id1': {"url": "https://raw.githubusercontent.com/DominikWasiolka/pict
                    "conditions": "Musisz wydać 123 zł w tym miesiącu, aby uzyskać kupon \nSpecjalne warunki: \n*Bierzcie, pasibrzuchy!", 'shop': 'Zabka','requrement':123}
           }
 
-users = {"user1":{"cupons":['id1','id2','id4','id10','id11','id12','id13','id9'], 
-                     "shops":["Obi",'Zabka','Lidl'],
+users = {"user1":{"cupons":['id1','id4','id10','id11','id12','id13','id9'], 
+                     "shops":["Obi",'Zabka','Lidl', 'Premium'],
                      "blacklist":['Vistula'],
-                     "expenses":{"Zabka":1400,"Obi":500}},
+                     "expenses":{"Zabka":1400,"Obi":500,'Lidl':20,'Premium':133}},
          "user2":{"cupons":['id3'],
                      "shops":["Empik","Zabka"],
                      "blacklist":['Obi'],
